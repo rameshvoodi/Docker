@@ -13,6 +13,19 @@ Docker is an open platform for developing, shipping, and running applications. D
 - **Solve problems once**
     Docker lets you solve your problems once and then focus on creating value. For example, with Docker you can use any language or toolchain. You can share a container with your coworkers, and be confident that it will work on any machine, regardless of any customized settings that machine might have. Docker helps you ship code faster, test faster, deploy faster, and shorten the cycle between writing code and running code.
 
-## what are containers?
 
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+## what is docker image?
+
+A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container.
+
+## what is docker container?
+
+A Docker container is a runtime instance of a Docker image. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines. 
+
+## what is docker hub?
+
+Docker Hub is a cloud-based registry service which allows you to link to code repositories, build your images and test them, stores manually pushed images, and links to Docker Cloud so you can deploy images to your hosts. It provides a centralized resource for container image discovery, distribution and change management, user and team collaboration, and workflow automation throughout the development pipeline.
+
+## what is dockerfile?
+
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession.
