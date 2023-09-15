@@ -29,3 +29,11 @@ Docker Hub is a cloud-based registry service which allows you to link to code re
 ## what is dockerfile?
 
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession.
+
+## what is docker-compose?
+
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services. Then, with a single command, you create and start all the services from your configuration.
+
+## what is docker swarm?
+
+Docker Swarm is a clustering and scheduling tool for Docker containers. With Swarm, IT administrators and developers can establish and manage a cluster of Docker nodes as a single virtual system. Swarm mode also exists natively in Docker Engine.
